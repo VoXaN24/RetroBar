@@ -28,6 +28,8 @@ namespace RetroBar
             _shellManager = SetupManagedShell();
             
             ThemeManager = new ThemeManager();
+
+            Updater updater = new Updater();
         }
 
         public void ExitGracefully()
